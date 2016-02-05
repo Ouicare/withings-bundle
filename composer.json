@@ -1,0 +1,29 @@
+{
+    "name": "ouicare/withings-bundle",
+    "license": "MIT",
+    "type": "project",
+    "description": "Integrating",
+    "keywords": ["withings", "api", "mobile", "php", "symfony", "bundle"],
+    "homepage": "https://github.com/Ouicare/withings-bundle",
+    "authors": [
+        {
+            "name": "Anis Marrouchi",
+            "email": "anismarrouchi@hotmail.com",
+            "name": "Kawther Fatnassi",
+            "email": "kawtherandroid@gmail.com",
+            "name": "Amine Abbadi",
+            "email": "anis.marrouchi@ouicare.com"
+
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ouicare\\WithingsBundle\\": ""
+        }
+
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "~2.1"
+    }
+}
